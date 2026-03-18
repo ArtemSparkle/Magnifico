@@ -1,0 +1,15 @@
+/* базовые стили */
+@import 'basic/reset.css';
+@import 'basic/fonts.css';
+@import 'basic/vars.css';
+@import 'basic/global.css';
+
+
+/* Home */
+
+
+
+/* Components */
+@import 'components/footer.css';
+@import 'components/header.css';
+
