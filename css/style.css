@@ -6,7 +6,8 @@
 
 
 /* Home */
-
+@import 'home/hero.css';
+@import 'home/section.css';
 
 
 /* Components */
