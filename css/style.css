@@ -6,11 +6,12 @@
 
 
 /* Home */
-@import 'home/hero.css';
-@import 'home/section.css';
+@import 'components/header.css';
+@import 'components/footer.css';
 
 
 /* Components */
-@import 'components/footer.css';
-@import 'components/header.css';
+@import 'components/happy-work.css';
+@import 'components/tools-team.css';
+@import 'home/problems-easy.css';
 
