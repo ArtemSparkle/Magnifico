@@ -1,26 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Magnifico</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <!-- // ограничить ширину страницы на 1280px и центрировать -->
-  <section class="container"> 
-    <header class="header">
-      <h1 class="header-title">magnifico</h1>
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Solutions</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-        </ul>
-      </nav>
-      <a href="#" class="button">Sign Up Free<img src="images/header-arrow-right.svg" class=""></a>
-    </header>
-  </section>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magnifico</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- // ограничить ширину страницы на 1280px и центрировать -->
+    <section class="container">
+      <!-- navigation bar -->
+      <header class="header">
+        <h1 class="header-title">magnifico</h1>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Solutions</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="button"
+          >Sign Up Free<img src="images/header-arrow-right.svg" class=""
+        /></a>
+      </header>
+      <!-- main part -->
+      <main class="main">
+        <h1 class="main-title">Team projects, done well</h1>
+        <p class="main-subtitle">The only platform that gives your team all the tools needed to work together on their awesome projects. </p>
+        <!-- field for sending mail and button -->
+        <form class="main-email-form">
+          <div class="input-group">
+            <span class="icon">✉</span>
+            <input type="email" placeholder="Enter work email" required />
+          </div>
+          <button type="submit" class="btn-submit">
+            Sign Up Free <span><img src="images/main-arrow.svg" class="" /></span>
+          </button>
+        </form>
+        <div class="main-image">
+          <img src="images/main.png" alt="Main Image" />
+        </div>
+      </main>
+
+
+    </section>
+  </body>
 </html>
