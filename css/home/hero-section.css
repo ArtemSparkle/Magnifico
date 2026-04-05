@@ -1,0 +1,79 @@
+.hero {
+  display: grid;
+  gap: 80px;
+  align-items: center;
+  grid-auto-flow: column;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.hero-content-form {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.main-title {
+  font-family: var(--font-extrabold);
+  font-size: var(--title-size);
+  color: var(--title);
+}
+
+.main-subtitle {
+  font-family: var(--font-regular);
+  font-size: var(--subtitle-size);
+  color: var(--subtitle);
+}
+
+.main-email-form {
+  display: flex;
+  gap: 16px;
+  font-family: var(--font-regular);
+  font-size: var(--link-size);
+  line-height: 140%;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  background-color: var(--white);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.hero-form-icon {
+  width: 20px;
+  height: 14px;
+  color: var(--icon);
+  display: flex;
+  align-items: center;
+}
+
+.hero-form-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  background-color: var(--blue-link);
+  color: var(--white);
+  border-radius: 8px;
+}
+
+.hero-form-btn-text {
+  font-family: var(--font-medium);
+  font-size: var(--link-size);
+  padding: 0 16px;
+}
+
+.hero-form-btn-span {
+  display: flex;
+  align-items: center;
+}

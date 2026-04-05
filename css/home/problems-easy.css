@@ -1,0 +1,43 @@
+.problem-wrapper {
+  background-image: 
+    linear-gradient(90deg, #581C87BF 75%, rgba(88, 28, 135, 0.75) 100%),
+    url('../../images/problems-images.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 496px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 30px;
+  overflow: hidden;
+  padding: 80px;
+  gap: 80px;
+}
+
+
+/* Стили для текстового блока (50% ширины, чтобы слева было место) */
+.problem-content {
+  flex: 0 1 50%; /* Ширина текста - 50%, и он не растягивается */
+  color: #fff;   /* Весь текст внутри белый */
+}
+
+/* Заголовок */
+.problem-title {
+  
+}
+
+/* Подзаголовок (описание) */
+.problem-subtitle {
+  
+}
+
+/* Ссылка (как кнопка) */
+.problem-link {
+  
+}
+
+/* Красивый эффект при наведении на ссылку */
+.problem-link:hover {
+  
+}

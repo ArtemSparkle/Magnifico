@@ -1,0 +1,14 @@
+.tools-team {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  
+}
+
+.tools-team-content {
+  display: flex;
+  max-width: 660px;
+  width: 100%;
+  flex-direction: column;
+  
+}

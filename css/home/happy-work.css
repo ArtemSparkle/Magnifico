@@ -1,0 +1,41 @@
+.happy-work {
+  display: grid;
+  gap: 80px;
+  padding: 80px;
+  grid-auto-flow: column;
+}
+
+.happy-work-content {
+  display: flex;
+  max-width: 600px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+
+.happy-work-title {
+  font-family: var(--font-extrabold);
+  font-size: var(--title-size);
+  color: var(--title);
+}
+
+.happy-work-subtitle {
+  font-family: var(--font-regular);
+  font-size: var(--subtitle-size);
+  color: var(--subtitle);
+}
+
+.happy-work-link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-family: var(--font-medium);
+  font-size: var(--link-size);
+  color: var(--blue-link);
+}
+
+.happy-work-arrow-blue {
+  width: 14px;
+  height: 13.31px;
+}

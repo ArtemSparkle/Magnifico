@@ -1,0 +1,23 @@
+:root {
+    /* цвета */
+    --title: #0F172A;
+    --subtitle: #475569;
+    --background: #E2E8F0;
+    --border: #CBD5E1;
+    --icon: #94A3B8;
+    --blue: #1E40AF;
+    --blue-link: #2563EB;
+    --white: #FFFFFF;
+
+    /* шрифты */
+    --font-bold: 'Roboto Condensed-Bold';
+    --font-extrabold: 'Roboto Condensed-ExtraBold';
+    --font-regular: 'Roboto Condensed-Regular';
+    --font-medium: 'Roboto Condensed-Medium';
+
+    /* размеры шрифтов */
+    --title-size: 72px;
+    --logo-size: 32px;
+    --subtitle-size: 18px;
+    --link-size: 16px;
+}

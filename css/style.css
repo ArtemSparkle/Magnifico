@@ -5,13 +5,17 @@
 @import 'basic/global.css';
 
 
-/* Home */
+/* Components */
 @import 'components/header.css';
 @import 'components/footer.css';
 
 
-/* Components */
-@import 'components/happy-work.css';
-@import 'components/tools-team.css';
+/* Home */
+@import 'home/hero-section.css';
+@import 'home/happy-work.css';
+@import 'home/tools-team.css';
 @import 'home/problems-easy.css';
+
+
+
 
