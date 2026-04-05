@@ -1,7 +1,6 @@
 .happy-work {
   display: grid;
   gap: 80px;
-  padding: 80px;
   grid-auto-flow: column;
 }
 
