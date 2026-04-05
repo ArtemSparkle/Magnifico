@@ -3,15 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Magnifico</title>
+    <title>Magnifico - Team Projects Done Well</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- // ограничить ширину страницы на 1280px и центрировать -->
-    <section class="container">
-      <!-- navigation bar -->
+    <div class="container">
       <header class="header">
-        <h1 class="header-title">magnifico</h1>
+        <div class="header-logo">magnifico</div>
         <nav class="nav">
           <ul class="nav-list">
             <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
@@ -20,122 +18,118 @@
             <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
           </ul>
         </nav>
-        <a href="#" class="button"
-          >Sign Up Free<img src="images/header-arrow-right.svg" class=""
-        /></a>
+        <a href="#" class="button">
+          Sign Up Free
+          <img src="images/header-arrow-right.svg" alt=""  />
+        </a>
       </header>
 
-      <!-- main part -->
       <main class="main">
-        <h1 class="main-title">Team projects, done well</h1>
-        <p class="main-subtitle">
-          The only platform that gives your team all the tools needed to work
-          together on their awesome projects.
-        </p>
-        <!-- field for sending mail and button -->
-        <form class="main-email-form">
-          <div class="input-group">
-            <span class="icon">✉</span>
-            <input type="email" placeholder="Enter work email" required />
+
+        <!-- team projects -->
+        <section class="hero">
+          <h1 class="main-title">Team projects, done well</h1>
+          <p class="main-subtitle">
+            The only platform that gives your team all the tools needed to work
+            together on their awesome projects.
+          </p>
+          <!-- form email -->
+          <form class="main-email-form">
+            <div class="input-group">
+              <label for="email-input" class="visually-hidden"
+                >Email address</label
+              >
+              <span class="icon" >✉</span>
+              <input
+                type="email"
+                id="email-input"
+                placeholder="Enter work email"
+                required
+              />
+            </div>
+            <button type="submit" class="btn-submit">
+              Sign Up Free
+              <span
+                ><img src="images/main-arrow.svg" alt="" 
+              /></span>
+            </button>
+          </form>
+
+          <div class="main-image">
+            <img src="images/main.png" alt="Dashboard interface preview" />
           </div>
-          <button type="submit" class="btn-submit">
-            Sign Up Free
-            <span><img src="images/main-arrow.svg" class="" /></span>
-          </button>
-        </form>
-        <div class="main-image">
-          <img src="images/main.png" alt="Main Image" />
-        </div>
-      </main>
+        </section>
 
-      <!-- Happy-work -->
-      <section class="happy-work">
-        <div class="happy-work-images">
-          <img
-            class="happy-work-image"
-            src="images/Happy-section-image.png"
-            alt="Happy Work"
-          />
-        </div>
-        <div class="happy-work-content">
-          <h2 class="happy-work-title">Enjoy your time working</h2>
-          <p class="happy-work-subtitle">
-            Etiam condimentum duis molestie malesuada volutpat pellentesque sed.
-            Ornare suspendisse ut ac neque lobortis sed tincidunt. Mi tempus
-            quis massa tellus imperdiet aenean nulla id.
-          </p>
-          <a href="#" class="happy-work-link"
-            >See how it helped others<img
-              src="images/happy-work-arrow-blue.svg"
-              class="happy-work-arrow-blue"
-          /></a>
-        </div>
-      </section>
+        <!-- Happy-work -->
+        <section class="feature-section">
+          <div class="feature-content">
+            <h2 class="feature-title">Enjoy your time working</h2>
+            <p class="feature-subtitle">
+              Etiam condimentum duis molestie malesuada volutpat pellentesque
+              sed. Ornare suspendisse ut ac neque lobortis sed tincidunt.
+            </p>
+            <a href="#" class="feature-link">See how it helped others</a>
+          </div>
+          <div class="feature-image">
+            <img src="images/Happy-section-image.png" alt="Happy Work" />
+          </div>
+        </section>
 
-      <!-- Tools-Team -->
-      <section class="tools-team">
-        <div class="tools-team-content">
-          <h2 class="tools-team-title">Get all the tools your team needs</h2>
-          <p class="tools-team-subtitle">
-            Egestas fringilla aliquam leo, habitasse arcu varius lorem elit.
-            Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla
-            felis ac turpis at amet. Purus malesuada placerat arcu at enim elit
-            in accumsan.
-          </p>
-          <a href="#" class="tools-team-link"
-            >Check the tools<img
-              src="images/happy-work-arrow-blue.svg"
-              class="happy-work-arrow-blue"
-          /></a>
-        </div>
-        <div class="tools-team-images">
-          <img
-            class="tools-team-image"
-            src="images/team-tools-images.png"
-            alt="Tools Team"
-          />
-        </div>
-      </section>
-
-      <!-- Problems-easy -->
-      <section class="problems-easy">
-        <div class="problems-easy">
-          <div class="problems-easy-content">
-            <h2 class="problems-easy-title">
-              Problems come and get solved with ease
-            </h2>
-            <p class="problems-easy-subtitle">
+        <!-- Tools-Team -->
+        <section class="feature-section feature-reverse">
+          <div class="feature-content">
+            <h2 class="feature-title">Get all the tools your team needs</h2>
+            <p class="feature-subtitle">
               Egestas fringilla aliquam leo, habitasse arcu varius lorem elit.
               Neque pellentesque donec et tellus ac varius tortor, bibendum.
-              Nulla felis ac turpis at amet. Purus malesuada placerat arcu at
-              enim elit in accumsan.
             </p>
-            <a href="#" class="problems-easy-link"
-              >Improve workflow<img
-                src="images/happy-work-arrow-blue.svg"
-                class="happy-work-arrow-blue"
-            /></a>
+            <a href="#" class="feature-link">Check the tools</a>
           </div>
-        </div>
-      </section>
+          <div class="feature-image">
+            <img src="images/team-tools-images.png" alt="Tools Team" />
+          </div>
+        </section>
 
-      <!-- Footer -->
+        <!-- problems-easy -->
+        <section class="problems-easy">
+          <div class="problems-easy">
+            <div class="problems-easy-content">
+              <h2 class="problems-easy-title">
+                Problems come and get solved with ease
+              </h2>
+              <p class="problems-easy-subtitle">
+                Egestas fringilla aliquam leo, habitasse arcu varius lorem elit.
+                Neque pellentesque donec et tellus ac varius tortor, bibendum.
+                Nulla felis ac turpis at amet. Purus malesuada placerat arcu at
+                enim elit in accumsan.
+              </p>
+              <a href="#" class="problems-easy-link"
+                >Improve workflow<img
+                  src="images/happy-work-arrow-blue.svg"
+                  class="happy-work-arrow-blue"
+              /></a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- footer -->
       <footer class="footer">
         <div class="footer-logo">
-          <h2 class="footer-logo-text">magnifico</h2>
+          <span class="footer-logo-text">magnifico</span>
         </div>
         <div class="license">
-          <p class="license-text">@ 2023. All rights reserved.</p>
+          <p class="license-text">&copy; 2023. All rights reserved.</p>
         </div>
-        <div class="helpful-links">
+        <nav class="helpful-links">
           <a href="#" class="helpful-link">Terms</a>
           <a href="#" class="helpful-link">Privacy</a>
           <a href="#" class="helpful-link">Support</a>
           <a href="#" class="helpful-link">About</a>
           <a href="#" class="helpful-link">Resources</a>
           <a href="#" class="helpful-link">Contact</a>
-        </div>
+        </nav>
       </footer>
-    </section>
+    </div>
   </body>
 </html>
