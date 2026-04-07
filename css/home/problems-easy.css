@@ -13,31 +13,41 @@
   overflow: hidden;
   padding: 80px;
   gap: 80px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 520px 520px;
 }
 
-
-/* Стили для текстового блока (50% ширины, чтобы слева было место) */
 .problem-content {
-  flex: 0 1 50%; /* Ширина текста - 50%, и он не растягивается */
-  color: #fff;   /* Весь текст внутри белый */
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  color: #fff;
 }
 
-/* Заголовок */
 .problem-title {
-  
+  font-size: var(--title-size-two);
+  font-family: var(--font-extrabold);
 }
 
-/* Подзаголовок (описание) */
 .problem-subtitle {
-  
+  font-size: var(--subtitle-size);
+  font-family: var(--font-regular);
 }
 
-/* Ссылка (как кнопка) */
 .problem-link {
-  
+ display: flex;
+  font-size: var(--link-size);
+  font-family: var(--font-medium);
+  color: var(--white);
+  align-items: center;
+  gap: 16px;
+  align-self: flex-start;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 12px 24px;
 }
 
-/* Красивый эффект при наведении на ссылку */
 .problem-link:hover {
-  
+  background-color: rgb(107, 107, 107);
 }

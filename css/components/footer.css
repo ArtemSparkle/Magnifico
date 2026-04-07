@@ -1,0 +1,35 @@
+.footer {
+  display: flex;
+  width: 100%;
+  padding-bottom: 60px;
+  gap: 8px;
+}
+
+.footer-logo-text {
+  font-family: var(--font-medium);
+  font-size: var(--subtitle-size);
+  color: var(--title);
+}
+
+.footer-license {
+  width: 100%;
+  
+}
+
+.footer-license-text {
+  font-family: var(--font-regular);
+  font-size: var(--link-size);
+  color: var(--subtitle);
+}
+
+.footer-helpful-list-links {
+  display: flex;
+  gap: 24px;
+  
+}
+
+.footer-helpful-list-link-item {
+  font-family: var(--font-regular);
+  font-size: var(--link-size);
+  color: var(--subtitle);
+}

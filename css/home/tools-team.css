@@ -1,6 +1,7 @@
 .tools-team {
-  display: grid;
-  grid-auto-flow: column;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -9,5 +10,26 @@
   max-width: 660px;
   width: 100%;
   flex-direction: column;
-  
+  gap: 24px;
 }
+
+.tools-team-title {
+  font-size: var(--title-size-two);
+  color: var(--title);
+  font-family: var(--font-extrabold);
+}
+
+.tools-team-subtitle {
+  font-size: var(--subtitle-size);
+  color: var(--subtitle);
+  font-family: var(--font-regular);
+}
+
+.tools-team-link {
+  font-size: var(--link-size);
+  color: var(--blue-link);
+  font-family: var(--font-medium);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  }
