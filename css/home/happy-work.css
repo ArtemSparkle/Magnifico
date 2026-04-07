@@ -27,6 +27,7 @@
 
 .happy-work-link {
   display: flex;
+  width: 100%;
   align-items: center;
   gap: 16px;
   font-family: var(--font-medium);

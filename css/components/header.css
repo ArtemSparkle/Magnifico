@@ -28,6 +28,20 @@
   font-family: var(--font-medium);
   font-size: var(--link-size);
   color: var(--title);
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+
+.nav-link:hover {
+  transform: translateY(-8px);
+  color: #2600ff
 }
 
 .header-button {

@@ -1,0 +1,64 @@
+.header-button {
+  transition: 0.3s;
+}
+
+.header-button:hover {
+  background-color: #001fd1;
+  
+}
+
+.hero-form-btn {
+  transition: 0.3s;
+}
+
+.hero-form-btn:hover {
+  background-color: #001fd1;
+}
+
+/* стрелка */
+.white-arrow-right {
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.header-button:hover .white-arrow-right {
+  transform: translateX(8px);
+}
+
+.hero-form-btn:hover .white-arrow-right {
+  transform: translateX(8px);
+}
+
+.happy-work-link {
+  transition: 0.3s;
+}
+
+.tools-team-link {
+  transition: 0.3s;
+}
+
+/* стрелка */
+.blue-arrow-right {
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.happy-work-link:hover .blue-arrow-right {
+  transform: translateX(8px);
+}
+
+.tools-team-link:hover .blue-arrow-right {
+  transform: translateX(8px);
+}
+
+.problem-link {
+  transition: 0.3s;
+}
+
+.problem-link:hover {
+  background-color: #555555;
+}
+
+.problem-link:hover .white-arrow-right {
+  transform: translateX(8px);
+}
